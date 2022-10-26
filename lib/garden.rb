@@ -1,6 +1,6 @@
 # Something is missing here
-
-class Garden
+require_relative './plant'
+class Garden 
   attr_accessor :name
 
   def initialize(name:)
